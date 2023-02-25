@@ -17,6 +17,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -26,7 +28,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+<style></style>
   <!-- =======================================================
   * Template Name: iPortfolio - v3.10.0
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -100,17 +102,27 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Site Web:</strong> <span>tarekbensassi.github.io</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Tel:</strong> <span>+216 21 702 260</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Pay:</strong> <span>Tunis, Tunisie</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong><i class="fa fa-globe" aria-hidden="true"></i>
+                    Site Web:</strong> <span>tarekbensassi.github.io</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong><i class="fa fa-phone" aria-hidden="true"></i> Tel:</strong> <span>+216 21 702 260</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Pay:</strong> <span>Tunis, Tunisie</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong><i class="fa fa-car" aria-hidden="true"></i>
+                    Permis:</strong> <span>B</span></li>
+
+               
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Education:</strong> <span>Master</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>tarekbensassi@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponible</span></li>
-                </ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong><i class="fa fa-mortar-board"> </i> Education:</strong> <span>Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong><i class="bi bi-envelope-at-fill"></i>
+                     Email:</strong> <span>tarekbensassi@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong><i class="fa fa-laptop" aria-hidden="true"></i>Freelance:</strong> <span>Disponible   &nbsp;
+                     </span> 
+                    <i class="fa fa-circle enligne" style="font-size:15px;color:green;" data-placement="top" data-toggle="tooltip" title="En ligne !"> <span class="text"></span></i>    </li>
+
+                  </ul>
               </div>
             </div>
           
@@ -311,7 +323,8 @@
           <div class="col-lg-12" data-aos="fade-up">
             
 
-            <h3 class="resume-title">Education</h3>
+            <h3 class="resume-title">   <i class="fa fa-mortar-board"> </i>    </li>
+            </i>Education</h3>
             <div class="resume-item">
               <h4>Master Professional Arts Visuels &amp; Photographie</h4>
               <h5>2019 - 2021</h5>
@@ -326,7 +339,7 @@
             </div>
           </div>
           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Professional Experience</h3>
+            <h3 class="resume-title"> <i class="fa fa-mortar-board"> </i> Professional Experience</h3>
             <p>J’ai pris part à tous les niveaux de l’application : partant du travail en équipe avec GitLab, en passant par du développement pur avec Angular et Spring, à la compréhension des attentes du commercial et du marketing, jusqu’à un aperçu de l’architecture globale de l’applicatif.</p>
             <div class="resume-item">
               <h4> Développeur Fullstack</h4>
@@ -661,7 +674,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
 </body>
 
 </html>
