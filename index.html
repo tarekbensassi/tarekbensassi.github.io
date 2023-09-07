@@ -42,37 +42,31 @@
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <!-- ======= Header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">BENSASSI Tarek</a></h1>
         <div class="social-links mt-3 text-center">
-         <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>-->
-          <a href="https://github.com/tarekbensassi" class="github"><i class="bx bxl-github"></i></a>
-          <a href="https://www.instagram.com/tarek.bst/" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="marethi.tarek" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="https://www.linkedin.com/in/bstarek/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/tarekbensassi" class="github" title="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.instagram.com/tarek.bst/" class="instagram" title="Instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="marethi.tarek" class="google-plus" title="Skype"><i class="bx bxl-skype"></i></a>
+          <a href="https://www.linkedin.com/in/bstarek/" class="linkedin" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
-
+  
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span> Accueil</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>A propos</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Curriculum Vitae</span></a></li>
-       <!--  <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>-->
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacte</span></a></li>
-         
-
-      
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
   </header><!-- End Header -->
+  
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
@@ -92,10 +86,7 @@
         <div class="section-title">
           <h2>A propos </h2>
         </div>
-<p>Développeur passionné dans le domaine du web depuis plus de 2 ans,
-  actuellement développeur Web.
-  Je conçois et réalise des sites web du cahier des charges à la mise en ligne.
-  Je developpe aussi en JAVA, ce qui me permet de développer des applications web & java</p>
+<p>Je suis un développeur web passionné avec plus de 2 ans d'expérience dans le domaine. Actuellement en tant que développeur web, j'ai acquis une expertise solide dans la conception et la réalisation de sites web, depuis l'élaboration du cahier des charges jusqu'à la mise en ligne. En outre, ma maîtrise de Java me permet de développer des applications web performantes et flexibles.</p>
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
@@ -591,7 +582,7 @@
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-            <h4 class="title"><a href="">Deploeiment de projet</a></h4>
+            <h4 class="title"><a href="">Déploiement de projet</a></h4>
             <p class="description">En Utilisant chaine devops ou NGINX </p>
 
           </div>
@@ -709,6 +700,18 @@
     $(function(){
     $('.selectpicker').selectpicker();
 });
+// script.js
+document.addEventListener('DOMContentLoaded', function () {
+  new Typed('.typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 50, // Vitesse de frappe du texte
+    backSpeed: 25, // Vitesse de suppression du texte
+    backDelay: 2000, // Délai après avoir effacé le texte
+    startDelay: 1000, // Délai avant de commencer à taper le texte
+    loop: true, // Répéter l'animation en boucle
+  });
+});
+
     </script>
 </body>
 
